@@ -55,9 +55,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-group :development, :test do
-  gem 'sqlite3', '~> 1.4' # 開発用（ローカル環境）
-end
-group :production do
-  gem 'pg'  # 本番用ではPostgreSQLを使用する
-end
+# group :development, :test do
+#   gem 'sqlite3', '~> 1.4' # 開発用（ローカル環境）
+# end
+# group :production do
+#   gem 'pg'  # 本番用ではPostgreSQLを使用する
+# end
